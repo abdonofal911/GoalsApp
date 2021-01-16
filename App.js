@@ -20,6 +20,7 @@ export default function App() {
       return currentGoals.filter((goal) => goal.id !==goalId );
     });
   }
+  
   const CanselGoal = () => {
     setIsAddMode(false);
   }
